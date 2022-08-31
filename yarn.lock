@@ -30933,7 +30933,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:latest":
+"node-gyp@npm:^9.1.0, node-gyp@npm:latest":
   version: 9.1.0
   resolution: "node-gyp@npm:9.1.0"
   dependencies:
@@ -36042,6 +36042,7 @@ __metadata:
     lerna: ~5.0.0
     lint-staged: ^13.0.0
     minimist: ^1.2.5
+    node-gyp: ^9.1.0
     prettier: ^2.2.1
     semver: ^7.3.2
     shx: ^0.3.2
