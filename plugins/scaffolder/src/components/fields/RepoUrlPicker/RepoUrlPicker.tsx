@@ -61,10 +61,7 @@ export interface RepoUrlPickerUiOptions {
  * @public
  */
 export const RepoUrlPicker = (
-  props: FieldExtensionComponentProps<
-    string | undefined,
-    RepoUrlPickerUiOptions
-  >,
+  props: FieldExtensionComponentProps<string, RepoUrlPickerUiOptions>,
 ) => {
   const { uiSchema, onChange, rawErrors, formData } = props;
   const [state, setState] = useState<RepoUrlPickerState>(
