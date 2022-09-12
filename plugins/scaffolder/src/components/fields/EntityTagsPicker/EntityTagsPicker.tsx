@@ -48,7 +48,7 @@ export const EntityTagsPicker = (
   const [inputValue, setInputValue] = useState('');
   const [inputError, setInputError] = useState(false);
   const tagValidator = makeValidator().isValidTag;
-  const kinds = uiSchema['ui:options']?.kinds;
+  const kinds = uiSchema?.['ui:options']?.kinds;
 
   const { loading, value: existingTags } = useAsync(async () => {
     const tagsRequest: GetEntitiesRequest = { fields: ['metadata.tags'] };

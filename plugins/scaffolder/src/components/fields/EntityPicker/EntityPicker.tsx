@@ -44,7 +44,10 @@ export interface EntityPickerUiOptions {
  * @public
  */
 export const EntityPicker = (
-  props: FieldExtensionComponentProps<string, EntityPickerUiOptions>,
+  props: FieldExtensionComponentProps<
+    string | undefined,
+    EntityPickerUiOptions
+  >,
 ) => {
   const {
     onChange,
@@ -55,8 +58,8 @@ export const EntityPicker = (
     formData,
     idSchema,
   } = props;
-  const allowedKinds = uiSchema['ui:options']?.allowedKinds;
-  const defaultKind = uiSchema['ui:options']?.defaultKind;
+  const allowedKinds = uiSchema?.['ui:options']?.allowedKinds;
+  const defaultKind = uiSchema?.['ui:options']?.defaultKind;
 
   const catalogApi = useApi(catalogApiRef);
 
@@ -97,7 +100,7 @@ export const EntityPicker = (
         onChange={onSelect}
         options={entityRefs || []}
         autoSelect
-        freeSolo={uiSchema['ui:options']?.allowArbitraryValues ?? true}
+        freeSolo={uiSchema?.['ui:options']?.allowArbitraryValues ?? true}
         renderInput={params => (
           <TextField
             {...params}

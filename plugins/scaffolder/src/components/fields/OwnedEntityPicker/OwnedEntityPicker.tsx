@@ -59,10 +59,10 @@ export const OwnedEntityPicker = (
     idSchema,
   } = props;
 
-  const allowedKinds = uiSchema['ui:options']?.allowedKinds;
-  const defaultKind = uiSchema['ui:options']?.defaultKind;
+  const allowedKinds = uiSchema?.['ui:options']?.allowedKinds;
+  const defaultKind = uiSchema?.['ui:options']?.defaultKind;
   const allowArbitraryValues =
-    uiSchema['ui:options']?.allowArbitraryValues ?? true;
+    uiSchema?.['ui:options']?.allowArbitraryValues ?? true;
   const { ownedEntities, loading } = useOwnedEntities(allowedKinds);
 
   const entityRefs = ownedEntities?.items
