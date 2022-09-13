@@ -301,9 +301,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@asyncapi/react-component@npm:1.0.0-next.40":
-  version: 1.0.0-next.40
-  resolution: "@asyncapi/react-component@npm:1.0.0-next.40"
+"@asyncapi/react-component@npm:1.0.0-next.41":
+  version: 1.0.0-next.41
+  resolution: "@asyncapi/react-component@npm:1.0.0-next.41"
   dependencies:
     "@asyncapi/avro-schema-parser": ^0.3.0
     "@asyncapi/openapi-schema-parser": ^2.0.0
@@ -317,7 +317,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 6a8fc4f701552f678fd9dae8774018d50729708eddb641a3c7fb7919b0abd8dd464472752a80bfd1b2eb21a83b74ba9d3d9ea41c3f3bffa5f63bf8e5d275e87c
+  checksum: ffd8c990f80a6b5205ce55fb5d9d884fea83d74eb2da4c69347ba3561b63e108a68e45c1fd82523bdcf797145d671277196e7eb5cc70f222804f2326298d9bd5
   languageName: node
   linkType: hard
 
@@ -3872,7 +3872,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-api-docs@workspace:plugins/api-docs"
   dependencies:
-    "@asyncapi/react-component": 1.0.0-next.40
+    "@asyncapi/react-component": 1.0.0-next.41
     "@backstage/catalog-model": ^1.1.1-next.0
     "@backstage/cli": ^0.19.0-next.3
     "@backstage/core-app-api": ^1.1.0-next.3
