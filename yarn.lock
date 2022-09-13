@@ -30620,8 +30620,8 @@ __metadata:
   linkType: hard
 
 "msw@npm:^0.47.0":
-  version: 0.47.0
-  resolution: "msw@npm:0.47.0"
+  version: 0.47.2
+  resolution: "msw@npm:0.47.2"
   dependencies:
     "@mswjs/cookies": ^0.2.2
     "@mswjs/interceptors": ^0.17.2
@@ -30650,7 +30650,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: d48cd73327da0e44700595ebaaf0b8ee5f1b6c56c081d65ceed52dd8f49b64ce7a6734c84f8ab1093594e0c87b2554b6c35f7f92894c93148540dbfac826c441
+  checksum: fece2a473a3b1a768518db9d8ded6ca0cea5255ede5bce2b780cdfdfacb6fccbcdab773ba872d8e75b8212b8900f06024b6d7816c677d82bd2433b424627aadb
   languageName: node
   linkType: hard
 
